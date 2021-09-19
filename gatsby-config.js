@@ -1,9 +1,17 @@
+require('dotenv').config({
+  path: `.env`,
+});
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: 'https://eotas.education',
+    title: `EOTAS Education`,
+    description: `Education Other Than At School`,
+    author: '@eotas',
+    contactInfo: {
+      phone: '02071128105',
+      email: 'info@eotas.education',
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,21 +24,94 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `EOTAS Education`,
+        short_name: `EOTAS Education`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#F6FAFC`,
+        theme_color: `#39C4FF`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-gatsby-cloud`,
+    'gatsby-plugin-eslint',
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: `${__dirname}/src/images`,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allContentfulBlogPost } }) => {
+              return allContentfulBlogPost.edges.map(({ node: post }) => {
+                return {
+                  title: post.title,
+                  date: post.createdAt,
+                  description: post.content.childMarkdownRemark.excerpt,
+                  url: `${site.siteMetadata.siteUrl}/blog/${post.slug}`,
+                  guid: `${site.siteMetadata.siteUrl}/blog/${post.slug}`,
+                  custom_elements: [{ 'content:encoded': post.content.childMarkdownRemark.html }],
+                };
+              });
+            },
+            query: `
+              {
+                allContentfulBlogPost(
+                  sort: { fields: createdAt, order: DESC }
+                ) {
+                  edges {
+                    node {
+                      slug
+                      title
+                      createdAt
+                      content {
+                        childMarkdownRemark {
+                          excerpt(format: PLAIN, truncate: false)
+                          html
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
+            title: 'EOTAS Education Blog',
+          },
+        ],
+      },
+    },
   ],
-}
+};
