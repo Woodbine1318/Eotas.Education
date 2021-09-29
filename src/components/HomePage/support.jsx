@@ -10,10 +10,10 @@ const Support = () => {
     >
       <Pattern className="absolute top-0 -right-32 transform rotate-12 opacity-40 md:right-0" />
 
-      <h2 className="text-lg mb-7 md:text-xl md:mb-16">Pupils AP Academy Support</h2>
+      <h2 className="text-lg mb-7 md:text-xl md:mb-16">Pupils EOTAS Support</h2>
 
       <p className="max-w-prose mb-24 md:text-md md:mb-32">
-        AP Academy along with BYT work with over 1,500 pupils each year with a range of needs. Here are just some of the
+        EOTAS along with BYT work with over 1,500 pupils each year with a range of needs. Here are just some of the
         needs we meet:
       </p>
 

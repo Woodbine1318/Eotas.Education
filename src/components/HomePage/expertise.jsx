@@ -13,13 +13,14 @@ const Expertise = () => {
       <h2 className="text-lg text-center mb-16 md:text-xl">Our expertise</h2>
 
       <p className="md:max-w-prose mx-auto md:text-md md:text-center mb-8">
-        AP Academy along with the wider BYT group has over 10 years of online and offline alternative provision.
+        EOTAS. Education along with the wider BYT group has over 10 years of providing both alternative provision and
+        education Other Than At School at our centres.
       </p>
 
       <p className="md:max-w-prose mx-auto md:text-md md:text-center">
-        Our deep expertise and specialist teachers with SEN qualifications deliver lessons online with an exceptionally
-        small number of students in each class. Rarely reaching more than 4 The classrooms are straight forward with
-        easy navigation, student interaction and lesson activities.
+        Our deep expertise and specialist teachers with SEN qualifications deliver lessons with an exceptionally small
+        number of students in each class. Rarely reaching more than 4. Our wonderfully bright, light and open centres
+        are easily accessible and as open as possible. We strive to provide the best environment for our pupils.
       </p>
 
       <div className="flex flex-col items-stretch pt-32 md:flex-row md:justify-evenly md:items-start lg:items-center lg:pt-48 lg:pb-24">

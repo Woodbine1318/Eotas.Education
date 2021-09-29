@@ -15,18 +15,19 @@ const IndexPage = ({ location: { pathname } }) => (
 
     <section className="grid grid-cols-1 pt-36 px-constrained overflow-visible pb-28 md:pt-20 md:grid-cols-2 md:gap-x-24 md:px-constrained-md md:mb-0 md:pb-20 lg:pt-36 lg:gap-x-32 lg:px-constrained-lg">
       <h1 className="relative text-xl mb-4 md:mb-20 md:col-span-2 md:text-2xl lg:mb-11 xl:col-span-1 lg:text-3xl">
-        The AP academy is the <u>online alternative provision</u> of choice for schools, commissioners and pupils.
+        Our EOTAS. Education Centres provide educational provision for schools, commissioners and pupils in the towns we
+        serve.
         <Pattern className="absolute top-0 left-0 -mt-36 -ml-36 opacity-20" />
       </h1>
 
       <div className="col-start-1 mb-14">
         <p className="max-w-prose mb-4 md:text-lg md:mb-6">
-          Providing flexible live interactive teaching. Bringing focussed quality teaching to vulnerable learners.
+          Providing flexible live interactive teaching. Bringing quality education to vulnerable learners.
         </p>
 
         <p className="max-w-prose md:text-lg">
-          Learners who cannot or will not attend mainstream school due to a range of conditions Including medical and
-          other health issues.
+          Here at the EOTAS our centres serve learners who cannot or will not attend mainstream education due to a range
+          of conditions. Including medical and other health issues.
         </p>
       </div>
 
@@ -50,7 +51,7 @@ const IndexPage = ({ location: { pathname } }) => (
     </section>
 
     <Callout>
-      <p>The AP Academy provides educational recovery support for students who need it most. </p>
+      <p>Our EOATAS centres provides the educational support for pupils and students who need it most.</p>
     </Callout>
 
     <HowItWorks />

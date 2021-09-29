@@ -9,7 +9,7 @@ const HowItWorks = () => {
       id="how-it-works"
     >
       <h2 className="text-lg text-center mb-7 md:col-start-2 md:text-left md:mb-10 lg:text-xl lg:mb-16">
-        How AP Academy Online Provision Works
+        How Education Other than at School Works:
       </h2>
 
       <div className="order-1 relative flex justify-center items-center mb-24 md:-ml-56">
@@ -24,22 +24,19 @@ const HowItWorks = () => {
 
       <div className="order-2 md:col-start-2 lg:text-md">
         <p className="mb-8">
-          Flexibility and quality of alternative provision are key to schools and local authorities when they consider
-          providers. Both online and in our centres.
+          Flexibility and quality of educational provision are key to schools and local authorities when they consider
+          providers in the towns we serve. We are regularly adding our Education Other Than School Centres with our
+          partners BYT.
         </p>
 
         <p className="mb-8">
-          The AP Academy. provides the quality Online focus for school, local authorities and stake holders. Regularly
-          delivering EHC Plans through online provision across the need range.
+          EOTAS.Education provides the quality and the focus needed for schools, local authorities and stake holders.
+          Regularly delivering EHC Plans through alternative provision across the need range.
         </p>
 
-        <p className="mb-8">Reaching and reporting learning goals and attainment throughout the student enrolment.</p>
+        <p className="mb-8">Reaching and reporting learning goals and attainment throughout the pupil enrolment.</p>
 
-        <p className="mb-8">The Flexibility of AP Academy brings value for money for all state holders.</p>
-
-        <p>
-          The student can be at home, ay school, a PRU, AP setting or other learning centres. Including our own. (BYT).
-        </p>
+        <p className="mb-8">The Flexibility of EOTAS brings value for money for all state holders.</p>
       </div>
     </section>
   );
