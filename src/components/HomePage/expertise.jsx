@@ -47,7 +47,7 @@ const Expertise = () => {
       </div>
 
       <StaticImage
-        src="../../images/home-page/alternative-provision-online.png"
+        src="../../images/home-page/eotas-education-online.png"
         alt=""
         className="block max-w-5xl mx-auto -mb-16 md:-mb-32"
       />

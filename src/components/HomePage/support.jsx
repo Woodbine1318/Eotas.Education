@@ -20,7 +20,7 @@ const Support = () => {
       <dl className="grid grid-cols-1 gap-8 md:grid-cols-2 gap-x-8 gap-y-16 lg:grid-cols-3">
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-anxiety.png"
+            src="../../images/academy-support/eotas-education-online-anxiety.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"
@@ -35,7 +35,7 @@ const Support = () => {
 
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-behavioural-challenges.png"
+            src="../../images/academy-support/eotas-education-online-behavioural-challenges.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"
@@ -52,7 +52,7 @@ const Support = () => {
 
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-refusers.png"
+            src="../../images/academy-support/eotas-education-online-refusers.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"
@@ -68,7 +68,7 @@ const Support = () => {
 
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-medical-needs.png"
+            src="../../images/academy-support/eotas-education-online-medical-needs.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"
@@ -84,7 +84,7 @@ const Support = () => {
 
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-young.png"
+            src="../../images/academy-support/eotas-education-online-young.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"
@@ -100,7 +100,7 @@ const Support = () => {
 
         <div>
           <StaticImage
-            src="../../images/academy-support/alternative-provision-online-teenage-mothers.png"
+            src="../../images/academy-support/eotas-education-online-teenage-mothers.png"
             alt=""
             className="block w-80 h-80 mb-16 border-8 border-white rounded-xl bg-white mx-auto md:mx-0"
             objectFit="contain"

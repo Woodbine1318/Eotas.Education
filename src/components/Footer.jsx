@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
 
       <small className="block text-right border-t border-primary-100 pt-8">
-        AP Academy &copy; {new Date().getFullYear()}
+        EOTAS &copy; {new Date().getFullYear()}
       </small>
     </footer>
   );
