@@ -21,7 +21,7 @@ const PaginatedBlog = ({
         <h1 className="relative text-center text-xl max-w-5xl mx-auto mb-20 md:text-2xl">
           <Pattern className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20" />
           <span className="relative">
-            Welcome to the AP Academy blog, keep up to date with news and resources for alternative provision online
+            Welcome to the EOTAS blog, keep up to date with news and resources for alternative provision online
           </span>
         </h1>
 
