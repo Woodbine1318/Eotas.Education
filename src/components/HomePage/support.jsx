@@ -28,9 +28,7 @@ const Support = () => {
           />
 
           <dt className="font-semibold">Anxiety Disorders</dt>
-          <dd>
-            Can be a long-term school refusal by students. AP Academy’s online alternative provision fills the gap.
-          </dd>
+          <dd>Can be a long-term school refusal by students. EOTAS Education alternative provision fills the gap.</dd>
         </div>
 
         <div>
@@ -44,9 +42,9 @@ const Support = () => {
 
           <dt className="font-semibold">Behavioural challenges</dt>
           <dd>
-            AP Academy woks with schools and local authorities providing exclude children learning solutions from day 1
-            of exclusion. We work with PRUs, independent learning providers and location authorities from temporary to
-            full time exclusion.
+            EOTAS woks with schools and local authorities providing exclude children learning solutions from day 1 of
+            exclusion. We work with PRUs, independent learning providers and location authorities from temporary to full
+            time exclusion.
           </dd>
         </div>
 
@@ -93,8 +91,8 @@ const Support = () => {
 
           <dt className="font-semibold">Young people in care</dt>
           <dd>
-            AP Academy works with the virtual school provider throughout boroughs. Providing continuality at a time of
-            often fast changing periods.
+            EOTAS works with the virtual school provider throughout boroughs. Providing continuality at a time of often
+            fast changing periods.
           </dd>
         </div>
 
