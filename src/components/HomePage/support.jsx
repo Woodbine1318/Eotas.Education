@@ -42,7 +42,7 @@ const Support = () => {
 
           <dt className="font-semibold">Behavioural challenges</dt>
           <dd>
-            EOTAS woks with schools and local authorities providing exclude children learning solutions from day 1 of
+            EOTAS works with schools and local authorities providing exclude children learning solutions from day 1 of
             exclusion. We work with PRUs, independent learning providers and location authorities from temporary to full
             time exclusion.
           </dd>
